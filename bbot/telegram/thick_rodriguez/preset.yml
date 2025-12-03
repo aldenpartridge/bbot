@@ -1,0 +1,7 @@
+description: thick_rodriguez
+config:
+  modules:
+    telegram:
+      chat_id: 6200584998
+modules:
+- httpx

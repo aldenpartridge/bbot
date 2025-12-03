@@ -1,0 +1,17 @@
+Host,Provider,IP (External),IP (Internal),Open Ports,HTTP Status,HTTP Title,Risk Rating,Findings,Technologies,WAF,DNS Records
+testasp.vulnweb.com,cloud-ip,44.238.29.244,,80,200,acuforum forums,LOW,"http://testasp.vulnweb.com/*~1*/a.aspx:template: [iis-shortname-detect], name: [IIS - Short Name Detect]
+testasp.vulnweb.com:Shodan reported possible vulnerabilities: CVE-2014-4078
+http://testasp.vulnweb.com/:template: [external-service-interaction], name: [External Service Interaction]
+http://testasp.vulnweb.com/:template: [cookies-without-httponly], name: [Cookies without HttpOnly attribute - Detect] Extracted Data: [ASPSESSIONIDSQADBART]
+http://testasp.vulnweb.com/:template: [cookies-without-secure], name: [Cookies without Secure attribute - Detect] Extracted Data: [ASPSESSIONIDSQADBART]
+http://testasp.vulnweb.com/:IIS Shortname Vulnerability Detected. Potentially Vulnerable Method/Techniques: [GET (400/404 HTTP Code),POST (400/404 HTTP Code),OPTIONS (200/404 HTTP Code),DEBUG (400/404 HTTP Code),HEAD (400/404 HTTP Code),TRACE (501/404 HTTP Code)]:LOW
+http://testasp.vulnweb.com/yr3v0ygp*~1*/a.aspx:template: [iis-shortname-detect], name: [IIS - Short Name Detect]","cpe:/a:adobe:dreamweaver
+dreamweaver
+cpe:/a:microsoft:asp.net
+iis
+microsoft asp.net
+aspgeneric
+windows server
+cpe:/o:microsoft:windows
+cpe:/a:microsoft:internet_information_services
+cpe:/a:microsoft:internet_information_services:8.5",,

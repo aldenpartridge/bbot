@@ -1,0 +1,10 @@
+2025-12-03 16:15:55,318 [TRACE] bbot.scanner logger.py:151 Ran BBOT v0.0.0 at 2025-12-03 16:15:55.303551, command: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/bbot -t testphp.vulnweb.com -p web-thorough -o telegram -c modules.telegram.bot_token=8419771137:AAF3f41MwsICgh7wyb-3nfH9Apu6GakKi1Q -c modules.telegram.chat_id=6200584998 --force --allow-deadly
+2025-12-03 16:15:55,318 [TRACE] bbot.scanner logger.py:151 Target: {'seeds': ['testphp.vulnweb.com'], 'whitelist': ['testphp.vulnweb.com'], 'blacklist': [], 'strict_scope': False, 'hash': 'f648b4fb7cb7af3b8c108752ff7910401a39a7ae', 'seed_hash': '060e92d09292b608bfc470f1a08012ff1ce19a19', 'whitelist_hash': '060e92d09292b608bfc470f1a08012ff1ce19a19', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '90e62c36b511693c013b011d2fed72c5afb218e5'}
+2025-12-03 16:15:55,318 [TRACE] bbot.scanner logger.py:151 Preset: {'description': 'pedantic_betty', 'config': {'modules': {'iis_shortnames': {'detect_only': False}, 'telegram': {}}}, 'flags': ['iis-shortnames', 'web-basic', 'web-thorough']}
+2025-12-03 16:16:08,280 [TRACE] bbot.modules.dotnetnuke logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/dotnetnuke.py", line 194, in cleanup
+    await self.interactsh_instance.deregister()
+  File "/home/wired/Development/bbot/bbot/core/helpers/interactsh.py", line 184, in deregister
+    raise InteractshError("Missing required information to deregister")
+bbot.errors.InteractshError: Missing required information to deregister
+

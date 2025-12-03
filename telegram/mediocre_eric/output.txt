@@ -1,0 +1,7 @@
+[SCAN]              	mediocre_eric (SCAN:eb917154dc7646b69fc502d2543ed47700aceff8)	TARGET
+[DNS_NAME]          	example.com	TARGET	(a-record, aaaa-record, cdn-akamai, cdn-ip, domain, in-scope, mx-record, ns-record, soa-record, target, txt-record)
+[ORG_STUB]          	example	speculate
+[DNS_NAME]          	ns.icann.org	SOA	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	a.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	b.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[SCAN]              	mediocre_eric (SCAN:eb917154dc7646b69fc502d2543ed47700aceff8)	TARGET

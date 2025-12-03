@@ -1,0 +1,4 @@
+[SCAN]              	pedantic_betty (SCAN:f4f3844714eb7b2779132f5294a5c343ab5a71c5)	TARGET
+[DNS_NAME]          	testphp.vulnweb.com	TARGET	(a-record, cloud-amazon, cloud-ip, in-scope, subdomain, target, txt-record)
+[ORG_STUB]          	vulnweb	speculate
+[SCAN]              	pedantic_betty (SCAN:f4f3844714eb7b2779132f5294a5c343ab5a71c5)	TARGET

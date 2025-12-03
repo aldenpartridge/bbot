@@ -1,0 +1,11 @@
+[SCAN]              	insecure_larry (SCAN:520d13e9586ac58ee8b3c79e8bebf6d7c2aed259)	TARGET
+[DNS_NAME]          	example.com	TARGET	(a-record, aaaa-record, cdn-akamai, cdn-ip, domain, in-scope, mx-record, ns-record, soa-record, target, txt-record)
+[ORG_STUB]          	example	speculate
+[DNS_NAME]          	a.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	ns.icann.org	SOA	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	b.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[URL]               	https://example.com/	httpx	(cdn-akamai, cdn-ip, dir, http-title-example-domain, in-scope, ip-23-192-228-80, status-200)
+[OPEN_TCP_PORT]     	example.com:443	speculate	(cdn-akamai, cdn-ip, in-scope)
+[URL]               	http://example.com/	httpx	(cdn-akamai, cdn-ip, dir, http-title-example-domain, in-scope, ip-23-220-75-232, status-200)
+[OPEN_TCP_PORT]     	example.com:80	speculate	(cdn-akamai, cdn-ip, in-scope)
+[SCAN]              	insecure_larry (SCAN:520d13e9586ac58ee8b3c79e8bebf6d7c2aed259)	TARGET

@@ -1,0 +1,12 @@
+description: muscular_curtis
+config:
+  dns:
+    threads: 25
+    brute_threads: 1000
+  modules:
+    telegram:
+      chat_id: 6200584998
+flags:
+- subdomain-enum
+output_modules:
+- subdomains

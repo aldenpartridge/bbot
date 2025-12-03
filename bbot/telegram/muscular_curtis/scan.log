@@ -1,0 +1,141 @@
+2025-12-03 16:11:39,193 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan muscular_curtis
+2025-12-03 16:11:45,643 [INFO] bbot.modules.dnsbrute base.py:1533 Brute-forcing 4,989 subdomains for testphp.vulnweb.com (source: testphp.vulnweb.com)
+2025-12-03 16:11:46,505 [INFO] bbot.modules.anubisdb base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 301)
+2025-12-03 16:11:46,518 [INFO] bbot.modules.crt_db base.py:1533 Error retrieving results for testphp.vulnweb.com: no more connections allowed (max_client_conn)
+2025-12-03 16:11:46,672 [INFO] bbot.modules.leakix base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 401)
+2025-12-03 16:11:47,351 [INFO] bbot.modules.crt base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 502)
+2025-12-03 16:11:54,213 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) httpx(38:1:0), dnsbrute(16:1:0), dnscommonsrv(16:1:0), otx(16:1:0), securitytxt(16:1:0)
+2025-12-03 16:11:54,213 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:11:54,213 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (586 processed in the past 15 seconds)
+2025-12-03 16:12:09,216 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0), dnscommonsrv(16:1:0), otx(16:1:0)
+2025-12-03 16:12:09,216 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:12:09,216 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:12:24,217 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0), otx(16:1:0)
+2025-12-03 16:12:24,217 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:12:24,217 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:12:39,218 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0), otx(16:1:0)
+2025-12-03 16:12:39,218 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:12:39,218 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:12:54,219 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0), otx(16:1:0)
+2025-12-03 16:12:54,220 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:12:54,220 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:13:09,221 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0), otx(16:1:0)
+2025-12-03 16:13:09,221 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:13:09,221 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:13:24,222 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:13:24,222 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:13:24,222 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:13:39,224 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:13:39,225 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:13:39,225 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:13:54,226 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:13:54,226 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:13:54,226 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:14:09,227 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:14:09,227 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:14:09,227 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:14:24,228 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:14:24,228 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:14:24,228 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:14:39,231 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute(16:1:0)
+2025-12-03 16:14:39,231 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:14:39,231 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:14:41,542 [INFO] bbot.scanner scanner.py:790 Finishing scan
+2025-12-03 16:14:41,548 [INFO] bbot.modules.dnsbrute_mutations base.py:1533 Trying 805 mutations against vulnweb.com (1/1)
+2025-12-03 16:14:54,232 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Modules running (incoming:processing:outgoing) dnsbrute_mutations(0:1:0)
+2025-12-03 16:14:54,232 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: Events produced so far: OPEN_TCP_PORT: 2, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, FINDING: 1, TECHNOLOGY: 1, ASN: 1, IP_ADDRESS: 1, URL: 1
+2025-12-03 16:14:54,232 [INFO] bbot.scanner scanner.py:1187 muscular_curtis: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:15:06,956 [INFO] bbot.modules.asn base.py:1533 +---------+---------------+--------------+-----------+------------------+-----------+
+2025-12-03 16:15:06,956 [INFO] bbot.modules.asn base.py:1533 | ASN     | Subnet        | Host Count   | Name      | Description      | Country   |
+2025-12-03 16:15:06,956 [INFO] bbot.modules.asn base.py:1533 +=========+===============+==============+===========+==================+===========+
+2025-12-03 16:15:06,956 [INFO] bbot.modules.asn base.py:1533 | AS16509 | 44.224.0.0/11 | 2            | AMAZON-02 | Amazon.com, Inc. | US        |
+2025-12-03 16:15:06,956 [INFO] bbot.modules.asn base.py:1533 +---------+---------------+--------------+-----------+------------------+-----------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | Module             | Produced                         | Consumed                                 |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +====================+==================================+==========================================+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | shodan_idb         | 3 (1 FINDING, 1 OPEN_TCP_PORT, 1 | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    | TECHNOLOGY)                      |                                          |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | speculate          | 2 (1 OPEN_TCP_PORT, 1 ORG_STUB)  | 45 (9 DNS_NAME, 9 DNS_NAME_UNRESOLVED, 1 |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | HTTP_RESPONSE, 1 IP_ADDRESS, 1 URL, 24   |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | URL_UNVERIFIED)                          |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | httpx              | 1 (1 URL)                        | 2 (2 OPEN_TCP_PORT)                      |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | A                  | 1 (1 IP_ADDRESS)                 | 0                                        |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnsresolve         | 0                                | 104 (31 DNS_NAME, 6 EMAIL_ADDRESS, 1     |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | FINDING, 1 HTTP_RESPONSE, 17 IP_ADDRESS, |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | 22 OPEN_TCP_PORT, 1 TECHNOLOGY, 1 URL,   |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | 24 URL_UNVERIFIED)                       |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | cloudcheck         | 0                                | 72 (10 DNS_NAME, 9 DNS_NAME_UNRESOLVED,  |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | 1 EMAIL_ADDRESS, 1 FINDING, 1            |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | HTTP_RESPONSE, 2 IP_ADDRESS, 22          |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | OPEN_TCP_PORT, 1 TECHNOLOGY, 1 URL, 24   |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | URL_UNVERIFIED)                          |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | azure_realm        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | azure_tenant       | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | baddns_zone        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnsbimi            | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnsbrute_mutations | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnscaa             | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnscommonsrv       | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | dnstlsrpt          | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | oauth              | 0                                | 3 (3 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | securitytxt        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | sslcert            | 0                                | 10 (10 OPEN_TCP_PORT)                    |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | ipneighbor         | 0                                | 1 (1 IP_ADDRESS)                         |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | anubisdb           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | certspotter        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | crt                | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | crt_db             | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 | digitorus          | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,960 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | dnsbrute           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | dnsdumpster        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | hackertarget       | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | leakix             | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | myssl              | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | otx                | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | rapiddns           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | sitedossier        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | subdomaincenter    | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | urlscan            | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | wayback            | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | excavate           | 0                                | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 | social             | 0                                | 24 (24 URL_UNVERIFIED)                   |
+2025-12-03 16:15:06,961 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:15:06,961 [INFO] bbot.modules.output.csv base.py:1533 Saved CSV output to /home/wired/Development/bbot/bbot/telegram/muscular_curtis/output.csv
+2025-12-03 16:15:06,961 [INFO] bbot.modules.output.json base.py:1533 Saved JSON output to /home/wired/Development/bbot/bbot/telegram/muscular_curtis/output.json
+2025-12-03 16:15:06,961 [INFO] bbot.modules.output.subdomains base.py:1533 Saved 1 subdomains to /home/wired/Development/bbot/bbot/telegram/muscular_curtis/subdomains.txt
+2025-12-03 16:15:06,961 [INFO] bbot.modules.output.txt base.py:1533 Saved TXT output to /home/wired/Development/bbot/bbot/telegram/muscular_curtis/output.txt

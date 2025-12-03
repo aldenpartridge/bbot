@@ -1,0 +1,6 @@
+Host,Provider,IP (External),IP (Internal),Open Ports,HTTP Status,HTTP Title,Risk Rating,Findings,Technologies,WAF,DNS Records
+testphp.vulnweb.com,cloud-ip,44.228.249.3,,80,200,Home of Acunetix Art,N/A,"testphp.vulnweb.com:Shodan reported possible vulnerabilities: CVE-2021-3618, CVE-2025-23419, CVE-2023-44487, CVE-2021-23017","ubuntu
+nginx
+dreamweaver
+cpe:/a:f5:nginx:1.19.0
+php",,

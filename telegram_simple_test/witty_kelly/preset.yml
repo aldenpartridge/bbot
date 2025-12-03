@@ -1,0 +1,6 @@
+description: witty_kelly
+config:
+  modules:
+    telegram_simple_test:
+      chat_id: 123456789
+verbose: true

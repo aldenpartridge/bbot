@@ -1,0 +1,11 @@
+description: pedantic_betty
+config:
+  modules:
+    iis_shortnames:
+      detect_only: false
+    telegram:
+      chat_id: 6200584998
+flags:
+- iis-shortnames
+- web-basic
+- web-thorough

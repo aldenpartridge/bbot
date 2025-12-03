@@ -1,0 +1,53 @@
+description: anal_roy
+config:
+  modules:
+    telegram:
+      chat_id: 6200584988
+modules:
+- affiliates
+- anubisdb
+- asn
+- baddns
+- baddns_zone
+- badsecrets
+- certspotter
+- code_repository
+- crt
+- dnsbrute
+- dnsbrute_mutations
+- dnscommonsrv
+- dnsdumpster
+- docker_pull
+- dockerhub
+- filedownload
+- fingerprintx
+- git
+- gitlab_com
+- gowitness
+- hackertarget
+- httpx
+- iis_shortnames
+- ipneighbor
+- leakix
+- myssl
+- ntlm
+- nuclei
+- oauth
+- otx
+- portscan
+- rapiddns
+- robots
+- securitytxt
+- shodan_idb
+- sitedossier
+- sslcert
+- subdomaincenter
+- trufflehog
+- urlscan
+- wafw00f
+- wappalyzer
+- wayback
+- wpscan
+output_modules:
+- asset_inventory
+- subdomains

@@ -1,0 +1,53 @@
+description: nascent_louis
+config:
+  dns:
+    threads: 25
+    brute_threads: 1000
+  web:
+    spider_distance: 2
+    spider_depth: 4
+    spider_links_per_page: 25
+  modules:
+    iis_shortnames:
+      detect_only: false
+    ffuf:
+      lines: 1000
+    gowitness:
+      resolution_x: 1440
+      resolution_y: 900
+      output_path: ''
+      social: true
+    baddns:
+      enabled_submodules:
+      - CNAME
+      - references
+      - MX
+      - NS
+      - TXT
+      enable_references: true
+    telegram:
+      chat_id: 6200584998
+flags:
+- cloud-enum
+- code-enum
+- email-enum
+- iis-shortnames
+- subdomain-enum
+- web-basic
+- web-paramminer
+- web-screenshots
+modules:
+- baddns
+- baddns_direct
+- baddns_zone
+- ffuf
+- httpx
+- hunt
+- reflected_parameters
+output_modules:
+- emails
+- subdomains
+conditions:
+- "{% if config.web.spider_distance == 0 %}\n  {{ warn(\"The paramminer preset works\
+  \ much better with spider enabled! Consider adding 'spider' or 'spider-intense'\
+  \ preset.\") }}\n{% endif %}"

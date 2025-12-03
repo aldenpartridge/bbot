@@ -1,0 +1,7 @@
+[SCAN]              	witty_kelly (SCAN:b0a36f31fff85aa1006921b15bdf0be7d93f9ecc)	TARGET
+[DNS_NAME]          	example.com	TARGET	(a-record, aaaa-record, cdn-akamai, cdn-ip, domain, in-scope, mx-record, ns-record, soa-record, target, txt-record)
+[ORG_STUB]          	example	speculate
+[DNS_NAME]          	a.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	b.iana-servers.net	NS	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[DNS_NAME]          	ns.icann.org	SOA	(a-record, aaaa-record, affiliate, distance-1, subdomain)
+[SCAN]              	witty_kelly (SCAN:b0a36f31fff85aa1006921b15bdf0be7d93f9ecc)	TARGET

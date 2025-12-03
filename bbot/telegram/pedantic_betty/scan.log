@@ -1,0 +1,39 @@
+2025-12-03 16:15:55,318 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan pedantic_betty
+2025-12-03 16:16:03,136 [INFO] bbot.scanner scanner.py:790 Finishing scan
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | Module              | Produced       | Consumed                       |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +=====================+================+================================+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | speculate           | 1 (1 ORG_STUB) | 3 (2 DNS_NAME, 1 IP_ADDRESS)   |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | dnsresolve          | 0              | 9 (2 DNS_NAME, 1 IP_ADDRESS, 6 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 |                     |                | OPEN_TCP_PORT)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | cloudcheck          | 0              | 9 (2 DNS_NAME, 1 IP_ADDRESS, 6 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 |                     |                | OPEN_TCP_PORT)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | azure_realm         | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | baddns              | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | bucket_amazon       | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | bucket_azure        | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | bucket_digitalocean | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | bucket_firebase     | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | bucket_google       | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | oauth               | 0              | 2 (2 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | securitytxt         | 0              | 1 (1 DNS_NAME)                 |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | httpx               | 0              | 2 (2 OPEN_TCP_PORT)            |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 | sslcert             | 0              | 3 (3 OPEN_TCP_PORT)            |
+2025-12-03 16:16:08,276 [INFO] bbot.modules.aggregate base.py:1533 +---------------------+----------------+--------------------------------+
+2025-12-03 16:16:08,277 [INFO] bbot.modules.output.csv base.py:1533 Saved CSV output to /home/wired/Development/bbot/bbot/telegram/pedantic_betty/output.csv
+2025-12-03 16:16:08,277 [INFO] bbot.modules.output.json base.py:1533 Saved JSON output to /home/wired/Development/bbot/bbot/telegram/pedantic_betty/output.json
+2025-12-03 16:16:08,277 [INFO] bbot.modules.output.txt base.py:1533 Saved TXT output to /home/wired/Development/bbot/bbot/telegram/pedantic_betty/output.txt
+2025-12-03 16:16:08,279 [WARNING] bbot.modules.dotnetnuke base.py:1597 Interactsh failure: Missing required information to deregister

@@ -1,0 +1,7 @@
+description: profound_denethor
+config:
+  modules:
+    telegram:
+      chat_id: 123456789
+modules:
+- httpx

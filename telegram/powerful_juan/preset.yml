@@ -1,0 +1,7 @@
+description: powerful_juan
+config:
+  modules:
+    telegram:
+      chat_id: 123456789
+modules:
+- httpx

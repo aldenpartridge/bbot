@@ -1,0 +1,160 @@
+2025-12-03 16:36:05,769 [TRACE] bbot.scanner logger.py:151 Ran BBOT v0.0.0 at 2025-12-03 16:36:05.752735, command: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/bbot -t testasp.vulnweb.com -m affiliates anubisdb asn baddns baddns_zone badsecrets certspotter code_repository crt dnscommonsrv dnsdumpster dockerhub docker_pull filedownload fingerprintx git gitlab_com gowitness hackertarget httpx iis_shortnames ipneighbor leakix dnsbrute dnsbrute_mutations myssl ntlm nuclei portscan oauth otx rapiddns robots shodan_idb securitytxt sitedossier sslcert subdomaincenter trufflehog urlscan wafw00f wappalyzer wayback wpscan -om asset_inventory subdomains --allow-deadly -o telegram -c modules.telegram.bot_token=8419771137:AAF3f41MwsICgh7wyb-3nfH9Apu6GakKi1Q -c modules.telegram.chat_id=6200584988
+2025-12-03 16:36:05,769 [TRACE] bbot.scanner logger.py:151 Target: {'seeds': ['testasp.vulnweb.com'], 'whitelist': ['testasp.vulnweb.com'], 'blacklist': [], 'strict_scope': False, 'hash': '3cf96caace2aecf7709eae98ca92146bf9caf95e', 'seed_hash': 'e1aeac0cdbfc60a5a6c39d03213d7b1f56618db5', 'whitelist_hash': 'e1aeac0cdbfc60a5a6c39d03213d7b1f56618db5', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': 'b907bd2dbd7fd2e347871dd02be78ced92875889'}
+2025-12-03 16:36:05,769 [TRACE] bbot.scanner logger.py:151 Preset: {'description': 'anal_roy', 'config': {'modules': {'telegram': {}}}, 'modules': ['affiliates', 'anubisdb', 'asn', 'baddns', 'baddns_zone', 'badsecrets', 'certspotter', 'code_repository', 'crt', 'dnsbrute', 'dnsbrute_mutations', 'dnscommonsrv', 'dnsdumpster', 'docker_pull', 'dockerhub', 'filedownload', 'fingerprintx', 'git', 'gitlab_com', 'gowitness', 'hackertarget', 'httpx', 'iis_shortnames', 'ipneighbor', 'leakix', 'myssl', 'ntlm', 'nuclei', 'oauth', 'otx', 'portscan', 'rapiddns', 'robots', 'securitytxt', 'shodan_idb', 'sitedossier', 'sslcert', 'subdomaincenter', 'trufflehog', 'urlscan', 'wafw00f', 'wappalyzer', 'wayback', 'wpscan'], 'output_modules': ['asset_inventory', 'subdomains']}
+2025-12-03 16:36:07,488 [TRACE] bbot.modules.asn logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/report/asn.py", line 245, in get_url
+    j = r.json()
+        ^^^^^^
+AttributeError: 'NoneType' object has no attribute 'json'
+
+2025-12-03 16:36:07,991 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testasp.vulnweb.com failed with status code 301: 
+2025-12-03 16:36:08,093 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testasp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:36:08,202 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testasp.vulnweb.com failed with status code 301: 
+2025-12-03 16:36:08,294 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testasp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:36:08,296 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testasp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:36:08,390 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testasp.vulnweb.com failed with status code 301: 
+2025-12-03 16:36:08,391 [TRACE] bbot.modules.anubisdb logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/anubisdb.py", line 43, in parse_results
+    json = r.json()
+  File "/home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/lib/python3.13/site-packages/httpx/_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-12-03 16:36:08,391 [TRACE] bbot.modules.anubisdb logger.py:151 ''
+2025-12-03 16:36:08,499 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testasp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:36:08,500 [TRACE] bbot.modules.leakix logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/leakix.py", line 43, in parse_results
+    subdomain = entry.get("subdomain", "")
+                ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+2025-12-03 16:36:08,500 [TRACE] bbot.modules.leakix logger.py:151 '"Incorrect API Key"'
+2025-12-03 16:36:08,794 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testasp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:36:09,298 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testasp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:36:09,299 [TRACE] bbot.modules.crt logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/crt.py", line 28, in parse_results
+    j = r.json()
+  File "/home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/lib/python3.13/site-packages/httpx/_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-12-03 16:36:09,299 [TRACE] bbot.modules.crt logger.py:151 '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-12-03 16:36:13,916 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testasp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:36:26,036 [ERROR] bbot.scanner scanner.py:1346 Error in gowitness.handle_batch(URL: 1): /home/wired/Development/bbot/bbot/modules/gowitness.py:201:handle_batch(): 'http://testasp.vulnweb.com:80/'
+2025-12-03 16:36:26,036 [TRACE] bbot.scanner logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/scanner/scanner.py", line 1319, in _acatch
+    yield
+  File "/home/wired/Development/bbot/bbot/modules/base.py", line 893, in run_task
+    return await task
+           ^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/gowitness.py", line 201, in handle_batch
+    parent_event = event_dict[parent_url]
+                   ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'http://testasp.vulnweb.com:80/'
+
+2025-12-03 16:36:44,618 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testasp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:37:15,498 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testasp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:38:16,972 [TRACE] bbot.core.process logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/core/helpers/process.py", line 49, in run
+    super().run()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 242, in _process_worker
+    call_item = call_queue.get(block=True)
+  File "/usr/lib/python3.13/multiprocessing/queues.py", line 101, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 430, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 395, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+
+2025-12-03 16:38:16,972 [TRACE] bbot.scanner logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-12-03 16:38:16,972 [TRACE] bbot.scanner logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-12-03 16:38:17,117 [TRACE] bbot.modules.dnsbrute logger.py:151 Worker stopped
+2025-12-03 16:38:17,117 [TRACE] bbot.modules.dnscommonsrv logger.py:151 Worker stopped
+2025-12-03 16:38:17,118 [TRACE] bbot.modules.nuclei logger.py:151 Worker stopped

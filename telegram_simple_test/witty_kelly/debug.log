@@ -1,0 +1,28 @@
+2025-12-03 16:09:40,873 [TRACE] bbot.scanner logger.py:151 Ran BBOT v0.0.0 at 2025-12-03 16:09:40.859060, command: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/bbot -t example.com -o telegram_simple_test -c modules.telegram_simple_test.bot_token=123456789:ABCdefGHIjklMNOpqrsTUVwxyz-123456789 -c modules.telegram_simple_test.chat_id=123456789 --force -v
+2025-12-03 16:09:40,873 [TRACE] bbot.scanner logger.py:151 Target: {'seeds': ['example.com'], 'whitelist': ['example.com'], 'blacklist': [], 'strict_scope': False, 'hash': '5da2f572da1d1a14c0c42df494b0ab648cd4c4ff', 'seed_hash': '0caaf24ab1a0c33440c06afe99df986365b0781f', 'whitelist_hash': '0caaf24ab1a0c33440c06afe99df986365b0781f', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': 'ac217ad3c68895558f3142a60bab40c9c5b2cdb1'}
+2025-12-03 16:09:40,873 [TRACE] bbot.scanner logger.py:151 Preset: {'description': 'witty_kelly', 'config': {'modules': {'telegram_simple_test': {}}}, 'verbose': True}
+2025-12-03 16:09:40,873 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan witty_kelly
+2025-12-03 16:09:40,873 [VERBOSE] bbot.scanner logger.py:151 Starting module worker loops
+2025-12-03 16:09:40,885 [VERBOSE] bbot.scanner logger.py:151 13 modules started
+2025-12-03 16:09:40,886 [VERBOSE] bbot.modules._scan_ingress logger.py:151 Target: DNS_NAME("example.com", module=TARGET, tags={'distance-1', 'target', 'domain'})
+2025-12-03 16:09:42,092 [INFO] bbot.scanner scanner.py:790 Finishing scan
+2025-12-03 16:09:42,093 [VERBOSE] bbot.scanner logger.py:151 Completed finish()
+2025-12-03 16:09:42,194 [VERBOSE] bbot.scanner logger.py:151 Completed final finish()
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | Module     | Produced       | Consumed                       |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +============+================+================================+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | NS         | 2 (2 DNS_NAME) | 0                              |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | speculate  | 1 (1 ORG_STUB) | 16 (4 DNS_NAME, 12 IP_ADDRESS) |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | SOA        | 1 (1 DNS_NAME) | 0                              |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | dnsresolve | 0              | 18 (6 DNS_NAME, 12 IP_ADDRESS) |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 | cloudcheck | 0              | 16 (4 DNS_NAME, 12 IP_ADDRESS) |
+2025-12-03 16:09:42,261 [INFO] bbot.modules.aggregate base.py:1533 +------------+----------------+--------------------------------+
+2025-12-03 16:09:42,262 [VERBOSE] bbot.modules.aggregate logger.py:151 Wrote scan-stats to /home/wired/Development/bbot/telegram_simple_test/witty_kelly/scan-stats-table-20251203_1609_42.txt
+2025-12-03 16:09:42,262 [INFO] bbot.modules.output.csv base.py:1533 Saved CSV output to /home/wired/Development/bbot/telegram_simple_test/witty_kelly/output.csv
+2025-12-03 16:09:42,262 [INFO] bbot.modules.output.json base.py:1533 Saved JSON output to /home/wired/Development/bbot/telegram_simple_test/witty_kelly/output.json
+2025-12-03 16:09:42,262 [INFO] bbot.modules.output.txt base.py:1533 Saved TXT output to /home/wired/Development/bbot/telegram_simple_test/witty_kelly/output.txt
+2025-12-03 16:09:42,262 [VERBOSE] bbot.core.dnshelper logger.py:151 EngineClient DNSHelper: shutting down...

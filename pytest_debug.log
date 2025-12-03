@@ -1,0 +1,401 @@
+2025-12-03 16:03:32,204 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/internal
+2025-12-03 16:03:32,207 [DEBUG] bbot.module_loader modules.py:155 Preloading aggregate from disk
+2025-12-03 16:03:32,208 [DEBUG] bbot.module_loader modules.py:155 Preloading cloudcheck from disk
+2025-12-03 16:03:32,209 [DEBUG] bbot.module_loader modules.py:155 Preloading dnsresolve from disk
+2025-12-03 16:03:32,211 [DEBUG] bbot.module_loader modules.py:155 Preloading excavate from disk
+2025-12-03 16:03:32,216 [DEBUG] bbot.module_loader modules.py:155 Preloading speculate from disk
+2025-12-03 16:03:32,217 [DEBUG] bbot.module_loader modules.py:155 Preloading unarchive from disk
+2025-12-03 16:03:32,218 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/output
+2025-12-03 16:03:32,218 [DEBUG] bbot.module_loader modules.py:155 Preloading asset_inventory from disk
+2025-12-03 16:03:32,221 [DEBUG] bbot.module_loader modules.py:155 Preloading csv from disk
+2025-12-03 16:03:32,221 [DEBUG] bbot.module_loader modules.py:155 Preloading discord from disk
+2025-12-03 16:03:32,222 [DEBUG] bbot.module_loader modules.py:155 Preloading emails from disk
+2025-12-03 16:03:32,222 [DEBUG] bbot.module_loader modules.py:155 Preloading http from disk
+2025-12-03 16:03:32,223 [DEBUG] bbot.module_loader modules.py:155 Preloading json from disk
+2025-12-03 16:03:32,224 [DEBUG] bbot.module_loader modules.py:155 Preloading mysql from disk
+2025-12-03 16:03:32,224 [DEBUG] bbot.module_loader modules.py:155 Preloading neo4j from disk
+2025-12-03 16:03:32,225 [DEBUG] bbot.module_loader modules.py:155 Preloading nmap_xml from disk
+2025-12-03 16:03:32,226 [DEBUG] bbot.module_loader modules.py:155 Preloading postgres from disk
+2025-12-03 16:03:32,227 [DEBUG] bbot.module_loader modules.py:155 Preloading python from disk
+2025-12-03 16:03:32,227 [DEBUG] bbot.module_loader modules.py:155 Preloading slack from disk
+2025-12-03 16:03:32,228 [DEBUG] bbot.module_loader modules.py:155 Preloading splunk from disk
+2025-12-03 16:03:32,229 [DEBUG] bbot.module_loader modules.py:155 Preloading sqlite from disk
+2025-12-03 16:03:32,229 [DEBUG] bbot.module_loader modules.py:155 Preloading stdout from disk
+2025-12-03 16:03:32,230 [DEBUG] bbot.module_loader modules.py:155 Preloading subdomains from disk
+2025-12-03 16:03:32,230 [DEBUG] bbot.module_loader modules.py:155 Preloading teams from disk
+2025-12-03 16:03:32,231 [DEBUG] bbot.module_loader modules.py:155 Preloading txt from disk
+2025-12-03 16:03:32,231 [DEBUG] bbot.module_loader modules.py:155 Preloading web_parameters from disk
+2025-12-03 16:03:32,232 [DEBUG] bbot.module_loader modules.py:155 Preloading web_report from disk
+2025-12-03 16:03:32,233 [DEBUG] bbot.module_loader modules.py:155 Preloading websocket from disk
+2025-12-03 16:03:32,233 [DEBUG] bbot.module_loader modules.py:155 Preloading telegram from disk
+2025-12-03 16:03:32,235 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules
+2025-12-03 16:03:32,235 [DEBUG] bbot.module_loader modules.py:155 Preloading ajaxpro from disk
+2025-12-03 16:03:32,236 [DEBUG] bbot.module_loader modules.py:155 Preloading anubisdb from disk
+2025-12-03 16:03:32,236 [DEBUG] bbot.module_loader modules.py:155 Preloading apkpure from disk
+2025-12-03 16:03:32,237 [DEBUG] bbot.module_loader modules.py:155 Preloading aspnet_bin_exposure from disk
+2025-12-03 16:03:32,237 [DEBUG] bbot.module_loader modules.py:155 Preloading azure_realm from disk
+2025-12-03 16:03:32,238 [DEBUG] bbot.module_loader modules.py:155 Preloading azure_tenant from disk
+2025-12-03 16:03:32,239 [DEBUG] bbot.module_loader modules.py:155 Preloading baddns from disk
+2025-12-03 16:03:32,240 [DEBUG] bbot.module_loader modules.py:155 Preloading baddns_direct from disk
+2025-12-03 16:03:32,240 [DEBUG] bbot.module_loader modules.py:155 Preloading baddns_zone from disk
+2025-12-03 16:03:32,241 [DEBUG] bbot.module_loader modules.py:155 Preloading badsecrets from disk
+2025-12-03 16:03:32,242 [DEBUG] bbot.module_loader modules.py:155 Preloading bevigil from disk
+2025-12-03 16:03:32,242 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_amazon from disk
+2025-12-03 16:03:32,243 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_azure from disk
+2025-12-03 16:03:32,243 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_digitalocean from disk
+2025-12-03 16:03:32,244 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_file_enum from disk
+2025-12-03 16:03:32,244 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_firebase from disk
+2025-12-03 16:03:32,245 [DEBUG] bbot.module_loader modules.py:155 Preloading bucket_google from disk
+2025-12-03 16:03:32,245 [DEBUG] bbot.module_loader modules.py:155 Preloading bufferoverrun from disk
+2025-12-03 16:03:32,246 [DEBUG] bbot.module_loader modules.py:155 Preloading builtwith from disk
+2025-12-03 16:03:32,246 [DEBUG] bbot.module_loader modules.py:155 Preloading bypass403 from disk
+2025-12-03 16:03:32,248 [DEBUG] bbot.module_loader modules.py:155 Preloading c99 from disk
+2025-12-03 16:03:32,248 [DEBUG] bbot.module_loader modules.py:155 Preloading certspotter from disk
+2025-12-03 16:03:32,249 [DEBUG] bbot.module_loader modules.py:155 Preloading chaos from disk
+2025-12-03 16:03:32,249 [DEBUG] bbot.module_loader modules.py:155 Preloading code_repository from disk
+2025-12-03 16:03:32,250 [DEBUG] bbot.module_loader modules.py:155 Preloading credshed from disk
+2025-12-03 16:03:32,251 [DEBUG] bbot.module_loader modules.py:155 Preloading crt from disk
+2025-12-03 16:03:32,251 [DEBUG] bbot.module_loader modules.py:155 Preloading crt_db from disk
+2025-12-03 16:03:32,252 [DEBUG] bbot.module_loader modules.py:155 Preloading dehashed from disk
+2025-12-03 16:03:32,253 [DEBUG] bbot.module_loader modules.py:155 Preloading digitorus from disk
+2025-12-03 16:03:32,253 [DEBUG] bbot.module_loader modules.py:155 Preloading dnsbimi from disk
+2025-12-03 16:03:32,254 [DEBUG] bbot.module_loader modules.py:155 Preloading dnsbrute from disk
+2025-12-03 16:03:32,255 [DEBUG] bbot.module_loader modules.py:155 Preloading dnsbrute_mutations from disk
+2025-12-03 16:03:32,257 [DEBUG] bbot.module_loader modules.py:155 Preloading dnscaa from disk
+2025-12-03 16:03:32,257 [DEBUG] bbot.module_loader modules.py:155 Preloading dnscommonsrv from disk
+2025-12-03 16:03:32,258 [DEBUG] bbot.module_loader modules.py:155 Preloading dnsdumpster from disk
+2025-12-03 16:03:32,258 [DEBUG] bbot.module_loader modules.py:155 Preloading dnstlsrpt from disk
+2025-12-03 16:03:32,259 [DEBUG] bbot.module_loader modules.py:155 Preloading docker_pull from disk
+2025-12-03 16:03:32,261 [DEBUG] bbot.module_loader modules.py:155 Preloading dockerhub from disk
+2025-12-03 16:03:32,262 [DEBUG] bbot.module_loader modules.py:155 Preloading dotnetnuke from disk
+2025-12-03 16:03:32,263 [DEBUG] bbot.module_loader modules.py:155 Preloading emailformat from disk
+2025-12-03 16:03:32,263 [DEBUG] bbot.module_loader modules.py:155 Preloading extractous from disk
+2025-12-03 16:03:32,265 [DEBUG] bbot.module_loader modules.py:155 Preloading ffuf from disk
+2025-12-03 16:03:32,268 [DEBUG] bbot.module_loader modules.py:155 Preloading ffuf_shortnames from disk
+2025-12-03 16:03:32,271 [DEBUG] bbot.module_loader modules.py:155 Preloading filedownload from disk
+2025-12-03 16:03:32,273 [DEBUG] bbot.module_loader modules.py:155 Preloading fingerprintx from disk
+2025-12-03 16:03:32,274 [DEBUG] bbot.module_loader modules.py:155 Preloading fullhunt from disk
+2025-12-03 16:03:32,274 [DEBUG] bbot.module_loader modules.py:155 Preloading generic_ssrf from disk
+2025-12-03 16:03:32,276 [DEBUG] bbot.module_loader modules.py:155 Preloading git from disk
+2025-12-03 16:03:32,276 [DEBUG] bbot.module_loader modules.py:155 Preloading git_clone from disk
+2025-12-03 16:03:32,277 [DEBUG] bbot.module_loader modules.py:155 Preloading gitdumper from disk
+2025-12-03 16:03:32,279 [DEBUG] bbot.module_loader modules.py:155 Preloading github_codesearch from disk
+2025-12-03 16:03:32,279 [DEBUG] bbot.module_loader modules.py:155 Preloading github_org from disk
+2025-12-03 16:03:32,280 [DEBUG] bbot.module_loader modules.py:155 Preloading github_usersearch from disk
+2025-12-03 16:03:32,281 [DEBUG] bbot.module_loader modules.py:155 Preloading github_workflows from disk
+2025-12-03 16:03:32,282 [DEBUG] bbot.module_loader modules.py:155 Preloading gitlab_com from disk
+2025-12-03 16:03:32,283 [DEBUG] bbot.module_loader modules.py:155 Preloading gitlab_onprem from disk
+2025-12-03 16:03:32,283 [DEBUG] bbot.module_loader modules.py:155 Preloading google_playstore from disk
+2025-12-03 16:03:32,284 [DEBUG] bbot.module_loader modules.py:155 Preloading gowitness from disk
+2025-12-03 16:03:32,286 [DEBUG] bbot.module_loader modules.py:155 Preloading graphql_introspection from disk
+2025-12-03 16:03:32,287 [DEBUG] bbot.module_loader modules.py:155 Preloading hackertarget from disk
+2025-12-03 16:03:32,288 [DEBUG] bbot.module_loader modules.py:155 Preloading host_header from disk
+2025-12-03 16:03:32,289 [DEBUG] bbot.module_loader modules.py:155 Preloading httpx from disk
+2025-12-03 16:03:32,290 [DEBUG] bbot.module_loader modules.py:155 Preloading hunt from disk
+2025-12-03 16:03:32,291 [DEBUG] bbot.module_loader modules.py:155 Preloading hunterio from disk
+2025-12-03 16:03:32,292 [DEBUG] bbot.module_loader modules.py:155 Preloading iis_shortnames from disk
+2025-12-03 16:03:32,294 [DEBUG] bbot.module_loader modules.py:155 Preloading ip2location from disk
+2025-12-03 16:03:32,294 [DEBUG] bbot.module_loader modules.py:155 Preloading ipneighbor from disk
+2025-12-03 16:03:32,295 [DEBUG] bbot.module_loader modules.py:155 Preloading ipstack from disk
+2025-12-03 16:03:32,295 [DEBUG] bbot.module_loader modules.py:155 Preloading jadx from disk
+2025-12-03 16:03:32,296 [DEBUG] bbot.module_loader modules.py:155 Preloading leakix from disk
+2025-12-03 16:03:32,297 [DEBUG] bbot.module_loader modules.py:155 Preloading medusa from disk
+2025-12-03 16:03:32,298 [DEBUG] bbot.module_loader modules.py:155 Preloading myssl from disk
+2025-12-03 16:03:32,298 [DEBUG] bbot.module_loader modules.py:155 Preloading newsletters from disk
+2025-12-03 16:03:32,299 [DEBUG] bbot.module_loader modules.py:155 Preloading ntlm from disk
+2025-12-03 16:03:32,299 [DEBUG] bbot.module_loader modules.py:155 Preloading nuclei from disk
+2025-12-03 16:03:32,302 [DEBUG] bbot.module_loader modules.py:155 Preloading oauth from disk
+2025-12-03 16:03:32,303 [DEBUG] bbot.module_loader modules.py:155 Preloading otx from disk
+2025-12-03 16:03:32,303 [DEBUG] bbot.module_loader modules.py:155 Preloading paramminer_cookies from disk
+2025-12-03 16:03:32,304 [DEBUG] bbot.module_loader modules.py:155 Preloading paramminer_getparams from disk
+2025-12-03 16:03:32,305 [DEBUG] bbot.module_loader modules.py:155 Preloading paramminer_headers from disk
+2025-12-03 16:03:32,306 [DEBUG] bbot.module_loader modules.py:155 Preloading passivetotal from disk
+2025-12-03 16:03:32,306 [DEBUG] bbot.module_loader modules.py:155 Preloading pgp from disk
+2025-12-03 16:03:32,307 [DEBUG] bbot.module_loader modules.py:155 Preloading portfilter from disk
+2025-12-03 16:03:32,308 [DEBUG] bbot.module_loader modules.py:155 Preloading portscan from disk
+2025-12-03 16:03:32,309 [DEBUG] bbot.module_loader modules.py:155 Preloading postman from disk
+2025-12-03 16:03:32,310 [DEBUG] bbot.module_loader modules.py:155 Preloading postman_download from disk
+2025-12-03 16:03:32,311 [DEBUG] bbot.module_loader modules.py:155 Preloading rapiddns from disk
+2025-12-03 16:03:32,311 [DEBUG] bbot.module_loader modules.py:155 Preloading reflected_parameters from disk
+2025-12-03 16:03:32,312 [DEBUG] bbot.module_loader modules.py:155 Preloading retirejs from disk
+2025-12-03 16:03:32,313 [DEBUG] bbot.module_loader modules.py:155 Preloading robots from disk
+2025-12-03 16:03:32,314 [DEBUG] bbot.module_loader modules.py:155 Preloading securitytrails from disk
+2025-12-03 16:03:32,314 [DEBUG] bbot.module_loader modules.py:155 Preloading securitytxt from disk
+2025-12-03 16:03:32,315 [DEBUG] bbot.module_loader modules.py:155 Preloading shodan_dns from disk
+2025-12-03 16:03:32,315 [DEBUG] bbot.module_loader modules.py:155 Preloading shodan_idb from disk
+2025-12-03 16:03:32,316 [DEBUG] bbot.module_loader modules.py:155 Preloading sitedossier from disk
+2025-12-03 16:03:32,316 [DEBUG] bbot.module_loader modules.py:155 Preloading skymem from disk
+2025-12-03 16:03:32,317 [DEBUG] bbot.module_loader modules.py:155 Preloading smuggler from disk
+2025-12-03 16:03:32,317 [DEBUG] bbot.module_loader modules.py:155 Preloading social from disk
+2025-12-03 16:03:32,318 [DEBUG] bbot.module_loader modules.py:155 Preloading sslcert from disk
+2025-12-03 16:03:32,320 [DEBUG] bbot.module_loader modules.py:155 Preloading subdomaincenter from disk
+2025-12-03 16:03:32,320 [DEBUG] bbot.module_loader modules.py:155 Preloading subdomainradar from disk
+2025-12-03 16:03:32,321 [DEBUG] bbot.module_loader modules.py:155 Preloading telerik from disk
+2025-12-03 16:03:32,364 [DEBUG] bbot.module_loader modules.py:155 Preloading trickest from disk
+2025-12-03 16:03:32,364 [DEBUG] bbot.module_loader modules.py:155 Preloading trufflehog from disk
+2025-12-03 16:03:32,366 [DEBUG] bbot.module_loader modules.py:155 Preloading url_manipulation from disk
+2025-12-03 16:03:32,367 [DEBUG] bbot.module_loader modules.py:155 Preloading urlscan from disk
+2025-12-03 16:03:32,367 [DEBUG] bbot.module_loader modules.py:155 Preloading vhost from disk
+2025-12-03 16:03:32,368 [DEBUG] bbot.module_loader modules.py:155 Preloading viewdns from disk
+2025-12-03 16:03:32,369 [DEBUG] bbot.module_loader modules.py:155 Preloading virustotal from disk
+2025-12-03 16:03:32,369 [DEBUG] bbot.module_loader modules.py:155 Preloading wafw00f from disk
+2025-12-03 16:03:32,370 [DEBUG] bbot.module_loader modules.py:155 Preloading wappalyzer from disk
+2025-12-03 16:03:32,370 [DEBUG] bbot.module_loader modules.py:155 Preloading wayback from disk
+2025-12-03 16:03:32,371 [DEBUG] bbot.module_loader modules.py:155 Preloading wpscan from disk
+2025-12-03 16:03:32,373 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/templates
+2025-12-03 16:03:32,373 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/report
+2025-12-03 16:03:32,373 [DEBUG] bbot.module_loader modules.py:155 Preloading affiliates from disk
+2025-12-03 16:03:32,374 [DEBUG] bbot.module_loader modules.py:155 Preloading asn from disk
+2025-12-03 16:03:32,375 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/lightfuzz
+2025-12-03 16:03:32,375 [DEBUG] bbot.module_loader modules.py:155 Preloading lightfuzz from disk
+2025-12-03 16:03:32,377 [DEBUG] bbot.module_loader modules.py:142 Preloading modules from /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules
+2025-12-03 16:03:32,377 [DEBUG] bbot.module_loader modules.py:155 Preloading cmdi from disk
+2025-12-03 16:03:32,378 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/cmdi.py as it is not a valid BBOT module
+2025-12-03 16:03:32,378 [DEBUG] bbot.module_loader modules.py:155 Preloading crypto from disk
+2025-12-03 16:03:32,380 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/crypto.py as it is not a valid BBOT module
+2025-12-03 16:03:32,380 [DEBUG] bbot.module_loader modules.py:155 Preloading path from disk
+2025-12-03 16:03:32,381 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/path.py as it is not a valid BBOT module
+2025-12-03 16:03:32,381 [DEBUG] bbot.module_loader modules.py:155 Preloading serial from disk
+2025-12-03 16:03:32,381 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/serial.py as it is not a valid BBOT module
+2025-12-03 16:03:32,382 [DEBUG] bbot.module_loader modules.py:155 Preloading sqli from disk
+2025-12-03 16:03:32,382 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/sqli.py as it is not a valid BBOT module
+2025-12-03 16:03:32,382 [DEBUG] bbot.module_loader modules.py:155 Preloading ssti from disk
+2025-12-03 16:03:32,383 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/ssti.py as it is not a valid BBOT module
+2025-12-03 16:03:32,383 [DEBUG] bbot.module_loader modules.py:155 Preloading xss from disk
+2025-12-03 16:03:32,384 [DEBUG] bbot.module_loader modules.py:349 Skipping /home/wired/Development/bbot/bbot/modules/lightfuzz/submodules/xss.py as it is not a valid BBOT module
+2025-12-03 16:03:33,722 [DEBUG] asyncio selector_events.py:64 Using selector: EpollSelector
+2025-12-03 16:03:33,723 [DEBUG] asyncio selector_events.py:64 Using selector: EpollSelector
+2025-12-03 16:03:33,723 [INFO] bbot base.py:99 Starting telegram module test
+2025-12-03 16:03:33,765 [DEBUG] bbot.presets preset.py:1003 Preset : Getting baked
+2025-12-03 16:03:33,987 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "nuclei" of type "scan"
+2025-12-03 16:03:33,987 [VERBOSE] bbot.presets logger.py:151 Preset : Adding module "httpx" because nuclei depends on it
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "httpx" of type "scan"
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "httpx" of type "scan"
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "python" of type "output"
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "telegram" of type "output"
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "dnsresolve" of type "internal"
+2025-12-03 16:03:33,988 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "unarchive" of type "internal"
+2025-12-03 16:03:34,276 [WARNING] bbot.scanner scanner.py:1207 You have enabled custom HTTP headers. These will be attached to all in-scope requests and all requests made by httpx.
+2025-12-03 16:03:34,277 [DEBUG] bbot base.py:103 Mocking DNS
+2025-12-03 16:03:34,382 [DEBUG] bbot base.py:105 Executing setup_before_prep()
+2025-12-03 16:03:34,382 [DEBUG] bbot base.py:107 Executing scan._prep()
+2025-12-03 16:03:34,398 [HUGEINFO] bbot.scanner logger.py:151 Scan seeded with 1 targets (1 in whitelist)
+2025-12-03 16:03:34,398 [INFO] bbot.core.helpers.depsinstaller installer.py:458 Installing Ansible Community General Collection
+2025-12-03 16:03:34,399 [HUGEVERBOSE] bbot.core.helpers.command logger.py:151 run: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/ansible-galaxy collection install community.general
+2025-12-03 16:03:34,874 [INFO] bbot.core.helpers.depsinstaller installer.py:463 Successfully installed Ansible Community General Collection
+2025-12-03 16:03:34,874 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing httpx - Preloaded Deps {'modules': ['httpx'], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [{'name': 'Download httpx', 'unarchive': {'src': 'https://github.com/projectdiscovery/httpx/releases/download/v1.2.5/httpx_1.2.5_linux_amd64.zip', 'include': 'httpx', 'dest': '/tmp/.bbot_test/tools', 'remote_src': True}, 'become': False}], 'common': []}
+2025-12-03 16:03:34,874 [HUGEINFO] bbot.core.helpers.depsinstaller logger.py:151 Installing module dependencies. Please be patient, this may take a while.
+2025-12-03 16:03:34,874 [VERBOSE] bbot.core.helpers.depsinstaller logger.py:151 Installing dependencies for module "httpx"
+2025-12-03 16:03:34,874 [INFO] bbot.core.helpers.depsinstaller installer.py:344 Running 1 Ansible tasks for httpx
+2025-12-03 16:03:34,874 [DEBUG] bbot.core.helpers.depsinstaller installer.py:359 ansible_run(module=None, args=None, ansible_args=None)
+2025-12-03 16:03:34,874 [DEBUG] bbot.core.helpers.depsinstaller installer.py:371 {
+  "hosts": "all",
+  "tasks": [
+    {
+      "name": "Download httpx",
+      "unarchive": {
+        "src": "https://github.com/projectdiscovery/httpx/releases/download/v1.2.5/httpx_1.2.5_linux_amd64.zip",
+        "include": "httpx",
+        "dest": "/tmp/.bbot_test/tools",
+        "remote_src": true
+      },
+      "become": false
+    }
+  ]
+}
+2025-12-03 16:03:40,964 [DEBUG] bbot.core.helpers.depsinstaller installer.py:393 Ansible status: successful
+2025-12-03 16:03:40,964 [DEBUG] bbot.core.helpers.depsinstaller installer.py:394 Ansible return code: 0
+2025-12-03 16:03:40,965 [INFO] bbot.core.helpers.depsinstaller installer.py:347 Successfully ran 1 Ansible tasks for httpx
+2025-12-03 16:03:40,965 [DEBUG] bbot.core.helpers.depsinstaller installer.py:198 Setup succeeded for module "httpx"
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing unarchive - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "unarchive"
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing python - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "python"
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing dnsresolve - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "dnsresolve"
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing telegram - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "telegram"
+2025-12-03 16:03:40,966 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing nuclei - Preloaded Deps {'modules': ['httpx'], 'pip': ['pyyaml~=6.0'], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [{'name': 'Download nuclei', 'unarchive': {'src': 'https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_amd64.zip', 'include': 'nuclei', 'dest': '/tmp/.bbot_test/tools', 'remote_src': True}, 'become': False}], 'common': []}
+2025-12-03 16:03:40,967 [VERBOSE] bbot.core.helpers.depsinstaller logger.py:151 Installing dependencies for module "nuclei"
+2025-12-03 16:03:40,967 [INFO] bbot.core.helpers.depsinstaller installer.py:265 Installing the following pip packages: pyyaml~=6.0
+2025-12-03 16:03:40,968 [HUGEVERBOSE] bbot.core.helpers.command logger.py:151 run: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/python -m pip install --upgrade pyyaml~=6.0 --constraint /tmp/.bbot_test/temp/qy9e1q2wvlt1b455gxgu
+2025-12-03 16:03:42,984 [INFO] bbot.core.helpers.depsinstaller installer.py:284 Successfully installed pyyaml-6.0.3
+2025-12-03 16:03:42,984 [INFO] bbot.core.helpers.depsinstaller installer.py:344 Running 1 Ansible tasks for nuclei
+2025-12-03 16:03:42,984 [DEBUG] bbot.core.helpers.depsinstaller installer.py:359 ansible_run(module=None, args=None, ansible_args=None)
+2025-12-03 16:03:42,984 [DEBUG] bbot.core.helpers.depsinstaller installer.py:371 {
+  "hosts": "all",
+  "tasks": [
+    {
+      "name": "Download nuclei",
+      "unarchive": {
+        "src": "https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_amd64.zip",
+        "include": "nuclei",
+        "dest": "/tmp/.bbot_test/tools",
+        "remote_src": true
+      },
+      "become": false
+    }
+  ]
+}
+2025-12-03 16:03:54,214 [DEBUG] bbot.core.helpers.depsinstaller installer.py:393 Ansible status: successful
+2025-12-03 16:03:54,215 [DEBUG] bbot.core.helpers.depsinstaller installer.py:394 Ansible return code: 0
+2025-12-03 16:03:54,216 [INFO] bbot.core.helpers.depsinstaller installer.py:347 Successfully ran 1 Ansible tasks for nuclei
+2025-12-03 16:03:54,216 [DEBUG] bbot.core.helpers.depsinstaller installer.py:198 Setup succeeded for module "nuclei"
+2025-12-03 16:03:54,216 [VERBOSE] bbot.scanner logger.py:151 Loading 2 scan modules: httpx,nuclei
+2025-12-03 16:03:54,263 [VERBOSE] bbot.scanner logger.py:151 Loaded module "httpx"
+2025-12-03 16:03:54,263 [VERBOSE] bbot.scanner logger.py:151 Loaded module "nuclei"
+2025-12-03 16:03:54,263 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 scan modules (httpx,nuclei)
+2025-12-03 16:03:54,264 [VERBOSE] bbot.scanner logger.py:151 Loading 2 internal modules: dnsresolve,unarchive
+2025-12-03 16:03:54,274 [VERBOSE] bbot.scanner logger.py:151 Loaded module "dnsresolve"
+2025-12-03 16:03:54,274 [VERBOSE] bbot.scanner logger.py:151 Loaded module "unarchive"
+2025-12-03 16:03:54,275 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 internal modules (dnsresolve,unarchive)
+2025-12-03 16:03:54,275 [VERBOSE] bbot.scanner logger.py:151 Loading 2 output modules: python,telegram
+2025-12-03 16:03:54,276 [VERBOSE] bbot.scanner logger.py:151 Loaded module "python"
+2025-12-03 16:03:54,276 [VERBOSE] bbot.scanner logger.py:151 Loaded module "telegram"
+2025-12-03 16:03:54,276 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 output modules, (python,telegram)
+2025-12-03 16:03:54,276 [VERBOSE] bbot.scanner logger.py:151 Setting up modules
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules._scan_ingress base.py:1485 Setting up module _scan_ingress
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules._scan_ingress base.py:1485 Finished setting up module _scan_ingress
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules.dnsresolve base.py:1485 Setting up module dnsresolve
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules.dnsresolve base.py:1485 Finished setting up module dnsresolve
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules.httpx base.py:1485 Setting up module httpx
+2025-12-03 16:03:54,277 [DEBUG] bbot.modules.httpx base.py:1485 Finished setting up module httpx
+2025-12-03 16:03:54,278 [DEBUG] bbot.modules.nuclei base.py:1485 Setting up module nuclei
+2025-12-03 16:03:54,278 [INFO] bbot.modules.nuclei base.py:1533 Updating Nuclei templates
+2025-12-03 16:03:54,278 [HUGEVERBOSE] bbot.core.helpers.command logger.py:151 run: /tmp/.bbot_test/tools/nuclei -update-template-dir /tmp/.bbot_test/tools/nuclei-templates -update-templates
+2025-12-03 16:03:54,278 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Setting up module unarchive
+2025-12-03 16:03:54,278 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Finished setting up module unarchive
+2025-12-03 16:03:54,278 [DEBUG] bbot.modules.output.python base.py:1485 Setting up module python
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules.output.python base.py:1485 Finished setting up module python
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules.output.telegram base.py:1485 Setting up module telegram
+2025-12-03 16:03:54,279 [WARNING] bbot.modules.output.telegram base.py:1597 Must set Webhook URL
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules.output.telegram base.py:1485 Finished setting up module telegram
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules._scan_egress base.py:1485 Setting up module _scan_egress
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules._scan_egress base.py:1485 Finished setting up module _scan_egress
+2025-12-03 16:03:54,279 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for dnsresolve (success)
+2025-12-03 16:03:54,279 [WARNING] bbot.scanner scanner.py:1207 Setup hard-failed for telegram: hard-fail
+2025-12-03 16:03:54,279 [WARNING] bbot.modules.output.telegram base.py:1597 Setting error state
+2025-12-03 16:03:54,279 [DEBUG] bbot.modules.output.telegram base.py:1485 Emptying event_queue
+2025-12-03 16:03:54,280 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for httpx (success)
+2025-12-03 16:03:54,280 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for unarchive (success)
+2025-12-03 16:03:54,280 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_egress (success)
+2025-12-03 16:03:54,280 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_ingress (success)
+2025-12-03 16:03:54,280 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for python (success)
+2025-12-03 16:04:11,204 [INFO] bbot.modules.nuclei base.py:1533 Nuclei templates already up-to-date
+2025-12-03 16:04:11,204 [INFO] bbot.modules.nuclei base.py:1533 Running nuclei in MANUAL mode. Settings will be passed directly into nuclei with no modification
+2025-12-03 16:04:11,204 [DEBUG] bbot.modules.nuclei base.py:1485 Finished setting up module nuclei
+2025-12-03 16:04:11,204 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for nuclei (success)
+2025-12-03 16:04:11,204 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module dnsresolve._incoming_event_queue to previous intercept module _scan_ingress.outgoing_event_queue
+2025-12-03 16:04:11,205 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module _scan_egress._incoming_event_queue to previous intercept module dnsresolve.outgoing_event_queue
+2025-12-03 16:04:11,769 [INFO] bbot base.py:99 Starting telegramfailure module test
+2025-12-03 16:04:11,801 [DEBUG] bbot.presets preset.py:1003 Preset : Getting baked
+2025-12-03 16:04:12,023 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "python" of type "output"
+2025-12-03 16:04:12,024 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "telegram" of type "output"
+2025-12-03 16:04:12,024 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "dnsresolve" of type "internal"
+2025-12-03 16:04:12,024 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "unarchive" of type "internal"
+2025-12-03 16:04:12,104 [WARNING] bbot.scanner scanner.py:1207 You have enabled custom HTTP headers. These will be attached to all in-scope requests and all requests made by httpx.
+2025-12-03 16:04:12,104 [DEBUG] bbot base.py:103 Mocking DNS
+2025-12-03 16:04:12,107 [DEBUG] bbot base.py:105 Executing setup_before_prep()
+2025-12-03 16:04:12,107 [DEBUG] bbot base.py:107 Executing scan._prep()
+2025-12-03 16:04:12,121 [HUGEINFO] bbot.scanner logger.py:151 Scan seeded with 1 targets (1 in whitelist)
+2025-12-03 16:04:12,121 [WARNING] bbot.scanner scanner.py:1207 No scan modules to load
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing unarchive - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "unarchive"
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing python - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "python"
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing telegram - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "telegram"
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing dnsresolve - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:12,122 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "dnsresolve"
+2025-12-03 16:04:12,123 [VERBOSE] bbot.scanner logger.py:151 Loading 0 scan modules: 
+2025-12-03 16:04:12,123 [VERBOSE] bbot.scanner logger.py:151 Loading 2 internal modules: dnsresolve,unarchive
+2025-12-03 16:04:12,154 [VERBOSE] bbot.scanner logger.py:151 Loaded module "dnsresolve"
+2025-12-03 16:04:12,154 [VERBOSE] bbot.scanner logger.py:151 Loaded module "unarchive"
+2025-12-03 16:04:12,154 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 internal modules (dnsresolve,unarchive)
+2025-12-03 16:04:12,154 [VERBOSE] bbot.scanner logger.py:151 Loading 2 output modules: python,telegram
+2025-12-03 16:04:12,155 [VERBOSE] bbot.scanner logger.py:151 Loaded module "python"
+2025-12-03 16:04:12,155 [VERBOSE] bbot.scanner logger.py:151 Loaded module "telegram"
+2025-12-03 16:04:12,155 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 output modules, (python,telegram)
+2025-12-03 16:04:12,155 [VERBOSE] bbot.scanner logger.py:151 Setting up modules
+2025-12-03 16:04:12,155 [DEBUG] bbot.modules._scan_ingress base.py:1485 Setting up module _scan_ingress
+2025-12-03 16:04:12,155 [DEBUG] bbot.modules._scan_ingress base.py:1485 Finished setting up module _scan_ingress
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.dnsresolve base.py:1485 Setting up module dnsresolve
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.dnsresolve base.py:1485 Finished setting up module dnsresolve
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Setting up module unarchive
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Finished setting up module unarchive
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.output.python base.py:1485 Setting up module python
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.output.python base.py:1485 Finished setting up module python
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.output.telegram base.py:1485 Setting up module telegram
+2025-12-03 16:04:12,156 [ERROR] bbot.modules.output.telegram base.py:1629 bot_token is required
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules.output.telegram base.py:1485 Finished setting up module telegram
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules._scan_egress base.py:1485 Setting up module _scan_egress
+2025-12-03 16:04:12,156 [DEBUG] bbot.modules._scan_egress base.py:1485 Finished setting up module _scan_egress
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_ingress (success)
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for python (success)
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for dnsresolve (success)
+2025-12-03 16:04:12,157 [WARNING] bbot.scanner scanner.py:1207 Setup hard-failed for telegram: bot_token is required
+2025-12-03 16:04:12,157 [WARNING] bbot.modules.output.telegram base.py:1597 Setting error state
+2025-12-03 16:04:12,157 [DEBUG] bbot.modules.output.telegram base.py:1485 Emptying event_queue
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for unarchive (success)
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_egress (success)
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module dnsresolve._incoming_event_queue to previous intercept module _scan_ingress.outgoing_event_queue
+2025-12-03 16:04:12,157 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module _scan_egress._incoming_event_queue to previous intercept module dnsresolve.outgoing_event_queue
+2025-12-03 16:04:12,774 [INFO] bbot base.py:99 Starting telegramconfigvalidation module test
+2025-12-03 16:04:12,811 [DEBUG] bbot.presets preset.py:1003 Preset : Getting baked
+2025-12-03 16:04:13,031 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "python" of type "output"
+2025-12-03 16:04:13,031 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "telegram" of type "output"
+2025-12-03 16:04:13,032 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "dnsresolve" of type "internal"
+2025-12-03 16:04:13,032 [DEBUG] bbot.presets preset.py:1003 Preset : Adding module "unarchive" of type "internal"
+2025-12-03 16:04:13,110 [WARNING] bbot.scanner scanner.py:1207 You have enabled custom HTTP headers. These will be attached to all in-scope requests and all requests made by httpx.
+2025-12-03 16:04:13,110 [DEBUG] bbot base.py:103 Mocking DNS
+2025-12-03 16:04:13,113 [DEBUG] bbot base.py:105 Executing setup_before_prep()
+2025-12-03 16:04:13,113 [DEBUG] bbot base.py:107 Executing scan._prep()
+2025-12-03 16:04:13,127 [HUGEINFO] bbot.scanner logger.py:151 Scan seeded with 0 targets (0 in whitelist)
+2025-12-03 16:04:13,127 [WARNING] bbot.scanner scanner.py:1207 No scan modules to load
+2025-12-03 16:04:13,128 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing unarchive - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:13,128 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "unarchive"
+2025-12-03 16:04:13,128 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing python - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:13,128 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "python"
+2025-12-03 16:04:13,128 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing telegram - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:13,129 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "telegram"
+2025-12-03 16:04:13,129 [DEBUG] bbot.core.helpers.depsinstaller installer.py:167 Installing dnsresolve - Preloaded Deps {'modules': [], 'pip': [], 'pip_constraints': [], 'shell': [], 'apt': [], 'ansible': [], 'common': []}
+2025-12-03 16:04:13,129 [DEBUG] bbot.core.helpers.depsinstaller installer.py:179 No dependency work to do for module "dnsresolve"
+2025-12-03 16:04:13,129 [VERBOSE] bbot.scanner logger.py:151 Loading 0 scan modules: 
+2025-12-03 16:04:13,129 [VERBOSE] bbot.scanner logger.py:151 Loading 2 internal modules: dnsresolve,unarchive
+2025-12-03 16:04:13,163 [VERBOSE] bbot.scanner logger.py:151 Loaded module "dnsresolve"
+2025-12-03 16:04:13,163 [VERBOSE] bbot.scanner logger.py:151 Loaded module "unarchive"
+2025-12-03 16:04:13,163 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 internal modules (dnsresolve,unarchive)
+2025-12-03 16:04:13,163 [VERBOSE] bbot.scanner logger.py:151 Loading 2 output modules: python,telegram
+2025-12-03 16:04:13,164 [VERBOSE] bbot.scanner logger.py:151 Loaded module "python"
+2025-12-03 16:04:13,164 [VERBOSE] bbot.scanner logger.py:151 Loaded module "telegram"
+2025-12-03 16:04:13,164 [INFO] bbot.scanner scanner.py:1187 Loaded 2/2 output modules, (python,telegram)
+2025-12-03 16:04:13,164 [VERBOSE] bbot.scanner logger.py:151 Setting up modules
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules._scan_ingress base.py:1485 Setting up module _scan_ingress
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules._scan_ingress base.py:1485 Finished setting up module _scan_ingress
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.dnsresolve base.py:1485 Setting up module dnsresolve
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.dnsresolve base.py:1485 Finished setting up module dnsresolve
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Setting up module unarchive
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.internal.unarchive base.py:1485 Finished setting up module unarchive
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.output.python base.py:1485 Setting up module python
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.output.python base.py:1485 Finished setting up module python
+2025-12-03 16:04:13,165 [DEBUG] bbot.modules.output.telegram base.py:1485 Setting up module telegram
+2025-12-03 16:04:13,165 [ERROR] bbot.modules.output.telegram base.py:1629 bot_token is required
+2025-12-03 16:04:13,166 [DEBUG] bbot.modules.output.telegram base.py:1485 Finished setting up module telegram
+2025-12-03 16:04:13,166 [DEBUG] bbot.modules._scan_egress base.py:1485 Setting up module _scan_egress
+2025-12-03 16:04:13,166 [DEBUG] bbot.modules._scan_egress base.py:1485 Finished setting up module _scan_egress
+2025-12-03 16:04:13,166 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for dnsresolve (success)
+2025-12-03 16:04:13,166 [WARNING] bbot.scanner scanner.py:1207 Setup hard-failed for telegram: bot_token is required
+2025-12-03 16:04:13,166 [WARNING] bbot.modules.output.telegram base.py:1597 Setting error state
+2025-12-03 16:04:13,166 [DEBUG] bbot.modules.output.telegram base.py:1485 Emptying event_queue
+2025-12-03 16:04:13,166 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for unarchive (success)
+2025-12-03 16:04:13,166 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_egress (success)
+2025-12-03 16:04:13,166 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for _scan_ingress (success)
+2025-12-03 16:04:13,166 [DEBUG] bbot.scanner scanner.py:1172 Setup succeeded for python (success)
+2025-12-03 16:04:13,167 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module dnsresolve._incoming_event_queue to previous intercept module _scan_ingress.outgoing_event_queue
+2025-12-03 16:04:13,167 [DEBUG] bbot.scanner scanner.py:1172 Setting intercept module _scan_egress._incoming_event_queue to previous intercept module dnsresolve.outgoing_event_queue
+2025-12-03 16:04:13,778 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: shutting down...
+2025-12-03 16:04:13,778 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: finished shutting down
+2025-12-03 16:04:13,778 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: shutting down...
+2025-12-03 16:04:13,779 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: finished shutting down
+2025-12-03 16:04:13,779 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: shutting down...
+2025-12-03 16:04:13,779 [VERBOSE] bbot.core.dnsengine logger.py:151 EngineServer DNSEngine: finished shutting down

@@ -1,0 +1,344 @@
+2025-12-03 16:31:39,390 [TRACE] bbot.scanner logger.py:151 Ran BBOT v0.0.0 at 2025-12-03 16:31:39.374366, command: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/bbot -t testphp.vulnweb.com -m affiliates anubisdb asn baddns baddns_zone badsecrets certspotter code_repository crt dnscommonsrv dnsdumpster dockerhub docker_pull filedownload fingerprintx git gitlab_com gowitness hackertarget httpx iis_shortnames ipneighbor leakix dnsbrute dnsbrute_mutations myssl ntlm nuclei portscan oauth otx rapiddns robots shodan_idb securitytxt sitedossier sslcert subdomaincenter trufflehog urlscan wafw00f wappalyzer wayback wpscan -om asset_inventory subdomains --allow-deadly -o telegram -c modules.telegram.bot_token=8419771137:AAF3f41MwsICgh7wyb-3nfH9Apu6GakKi1Q -c modules.telegram.chat_id=6200584988
+2025-12-03 16:31:39,391 [TRACE] bbot.scanner logger.py:151 Target: {'seeds': ['testphp.vulnweb.com'], 'whitelist': ['testphp.vulnweb.com'], 'blacklist': [], 'strict_scope': False, 'hash': 'f648b4fb7cb7af3b8c108752ff7910401a39a7ae', 'seed_hash': '060e92d09292b608bfc470f1a08012ff1ce19a19', 'whitelist_hash': '060e92d09292b608bfc470f1a08012ff1ce19a19', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '90e62c36b511693c013b011d2fed72c5afb218e5'}
+2025-12-03 16:31:39,391 [TRACE] bbot.scanner logger.py:151 Preset: {'description': 'reckless_rodriguez', 'config': {'modules': {'telegram': {}}}, 'modules': ['affiliates', 'anubisdb', 'asn', 'baddns', 'baddns_zone', 'badsecrets', 'certspotter', 'code_repository', 'crt', 'dnsbrute', 'dnsbrute_mutations', 'dnscommonsrv', 'dnsdumpster', 'docker_pull', 'dockerhub', 'filedownload', 'fingerprintx', 'git', 'gitlab_com', 'gowitness', 'hackertarget', 'httpx', 'iis_shortnames', 'ipneighbor', 'leakix', 'myssl', 'ntlm', 'nuclei', 'oauth', 'otx', 'portscan', 'rapiddns', 'robots', 'securitytxt', 'shodan_idb', 'sitedossier', 'sslcert', 'subdomaincenter', 'trufflehog', 'urlscan', 'wafw00f', 'wappalyzer', 'wayback', 'wpscan'], 'output_modules': ['asset_inventory', 'subdomains']}
+2025-12-03 16:31:39,391 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan reckless_rodriguez
+2025-12-03 16:31:40,931 [INFO] bbot.modules.dnsbrute base.py:1533 Brute-forcing 4,989 subdomains for testphp.vulnweb.com (source: testphp.vulnweb.com)
+2025-12-03 16:31:40,997 [TRACE] bbot.modules.asn logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/report/asn.py", line 245, in get_url
+    j = r.json()
+        ^^^^^^
+AttributeError: 'NoneType' object has no attribute 'json'
+
+2025-12-03 16:31:41,668 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testphp.vulnweb.com failed with status code 301: 
+2025-12-03 16:31:41,821 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testphp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:31:41,837 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testphp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:31:41,946 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testphp.vulnweb.com failed with status code 301: 
+2025-12-03 16:31:42,077 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testphp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:31:42,077 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testphp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:31:42,225 [TRACE] bbot.modules.anubisdb logger.py:151 API response to https://jldc.me/anubis/subdomains/testphp.vulnweb.com failed with status code 301: 
+2025-12-03 16:31:42,225 [INFO] bbot.modules.anubisdb base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 301)
+2025-12-03 16:31:42,226 [TRACE] bbot.modules.anubisdb logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/anubisdb.py", line 43, in parse_results
+    json = r.json()
+  File "/home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/lib/python3.13/site-packages/httpx/_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-12-03 16:31:42,226 [TRACE] bbot.modules.anubisdb logger.py:151 ''
+2025-12-03 16:31:42,285 [TRACE] bbot.modules.leakix logger.py:151 API response to https://leakix.net/api/subdomains/testphp.vulnweb.com failed with status code 401: "Incorrect API Key"
+2025-12-03 16:31:42,286 [INFO] bbot.modules.leakix base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 401)
+2025-12-03 16:31:42,286 [TRACE] bbot.modules.leakix logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/leakix.py", line 43, in parse_results
+    subdomain = entry.get("subdomain", "")
+                ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+2025-12-03 16:31:42,286 [TRACE] bbot.modules.leakix logger.py:151 '"Incorrect API Key"'
+2025-12-03 16:31:42,538 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testphp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:31:43,038 [TRACE] bbot.modules.crt logger.py:151 API response to https://crt.sh?q=%25.testphp.vulnweb.com&output=json failed with status code 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+2025-12-03 16:31:43,038 [INFO] bbot.modules.crt base.py:1533 Error parsing results for query "testphp.vulnweb.com" (status code 502)
+2025-12-03 16:31:43,039 [TRACE] bbot.modules.crt logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/modules/templates/subdomain_enum.py", line 126, in query
+    results = list(await parse_fn(response, query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/crt.py", line 28, in parse_results
+    j = r.json()
+  File "/home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/lib/python3.13/site-packages/httpx/_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2025-12-03 16:31:43,039 [TRACE] bbot.modules.crt logger.py:151 '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533                      __     _
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533    ____  __  _______/ /__  (_)
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533   / __ \/ / / / ___/ / _ \/ /
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533  / / / / /_/ / /__/ /  __/ /
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533 /_/ /_/\__,_/\___/_/\___/_/   v3.4.10
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533 		projectdiscovery.io
+2025-12-03 16:31:51,010 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:31:53,106 [INFO] bbot.modules.nuclei base.py:1533 [[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[31mWRN[0m] Found 1 templates with runtime error (use -validate flag for further examination)
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Current nuclei version: v3.4.10 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Current nuclei-templates version: v10.3.4 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] New templates added in latest release: 0
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Templates loaded for current scan: 8855
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Executing 8853 signed templates from projectdiscovery/nuclei-templates
+2025-12-03 16:31:53,107 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Targets loaded for current scan: 1
+2025-12-03 16:31:53,129 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Templates clustered: 1853 (Reduced 1740 Requests)
+2025-12-03 16:31:54,413 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsresolve(0:14:0), dnsbrute(5:1:0), dnscommonsrv(5:1:0), otx(5:1:0), securitytxt(5:1:0), wpscan(4:1:0), gowitness(0:1:0), iis_shortnames(0:1:0), nuclei(0:1:0), wafw00f(0:1:0)
+2025-12-03 16:31:54,413 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1
+2025-12-03 16:31:54,413 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (640 processed in the past 15 seconds)
+2025-12-03 16:31:56,425 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Using Interactsh Server: oast.me
+2025-12-03 16:31:58,382 [INFO] bbot.modules.nuclei base.py:1533 [0:00:05] | Templates: 8855 | Hosts: 1 | RPS: 51 | Matched: 0 | Errors: 0 | Requests: 268/16088 (1%)
+2025-12-03 16:32:03,381 [INFO] bbot.modules.nuclei base.py:1533 [0:00:10] | Templates: 8855 | Hosts: 1 | RPS: 62 | Matched: 0 | Errors: 46 | Requests: 644/16088 (4%)
+2025-12-03 16:32:03,651 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Skipped testphp.vulnweb.com:80 from target list as found unresponsive 30 times
+2025-12-03 16:32:04,409 [ERROR] bbot.scanner scanner.py:1346 Error in gowitness.handle_batch(URL: 1): /home/wired/Development/bbot/bbot/modules/gowitness.py:201:handle_batch(): 'http://testphp.vulnweb.com:80/'
+2025-12-03 16:32:04,409 [TRACE] bbot.scanner logger.py:151 Traceback (most recent call last):
+  File "/home/wired/Development/bbot/bbot/scanner/scanner.py", line 1319, in _acatch
+    yield
+  File "/home/wired/Development/bbot/bbot/modules/base.py", line 893, in run_task
+    return await task
+           ^^^^^^^^^^
+  File "/home/wired/Development/bbot/bbot/modules/gowitness.py", line 201, in handle_batch
+    parent_event = event_dict[parent_url]
+                   ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'http://testphp.vulnweb.com:80/'
+
+2025-12-03 16:32:05,066 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Skipped testphp.vulnweb.com:80 from target list as found unresponsive 32 times
+2025-12-03 16:32:08,381 [INFO] bbot.modules.nuclei base.py:1533 [0:00:15] | Templates: 8855 | Hosts: 1 | RPS: 46 | Matched: 0 | Errors: 138 | Requests: 712/16088 (4%)
+2025-12-03 16:32:09,414 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0), otx(12:1:0), nuclei(0:1:0)
+2025-12-03 16:32:09,414 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:32:09,414 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (85 processed in the past 15 seconds)
+2025-12-03 16:32:10,698 [INFO] bbot.modules.nuclei base.py:1533 [0:00:18] | Templates: 8855 | Hosts: 1 | RPS: 40 | Matched: 0 | Errors: 138 | Requests: 712/16088 (4%)
+2025-12-03 16:32:10,698 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Scan completed in 17.591476253s. No results found.
+2025-12-03 16:32:10,698 [INFO] bbot.modules.nuclei base.py:1533 [0:00:18] | Templates: 8855 | Hosts: 1 | RPS: 40 | Matched: 0 | Errors: 138 | Requests: 712/16088 (4%)
+2025-12-03 16:32:12,570 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testphp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:32:24,415 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0), otx(12:1:0)
+2025-12-03 16:32:24,415 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:32:24,415 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:32:39,416 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0), otx(12:1:0)
+2025-12-03 16:32:39,416 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:32:39,416 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:32:43,464 [TRACE] bbot.modules.otx logger.py:151 API response to https://otx.alienvault.com/api/v1/indicators/domain/testphp.vulnweb.com/passive_dns failed with status code 429: {"detail": "Anonymous access to this endpoint is limited. Please authenticate."}
+2025-12-03 16:32:54,417 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0), otx(12:1:0)
+2025-12-03 16:32:54,417 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:32:54,417 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:33:09,418 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0), otx(12:1:0)
+2025-12-03 16:33:09,418 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:33:09,418 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:33:24,419 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0)
+2025-12-03 16:33:24,419 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:33:24,419 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:33:39,421 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0)
+2025-12-03 16:33:39,421 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:33:39,421 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:33:54,422 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0)
+2025-12-03 16:33:54,422 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:33:54,422 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:34:09,424 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0)
+2025-12-03 16:34:09,425 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:34:09,425 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:34:24,426 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute(12:1:0)
+2025-12-03 16:34:24,426 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:34:24,426 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:34:36,770 [INFO] bbot.scanner scanner.py:790 Finishing scan
+2025-12-03 16:34:36,776 [INFO] bbot.modules.dnsbrute_mutations base.py:1533 Trying 805 mutations against vulnweb.com (1/1)
+2025-12-03 16:34:39,429 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute_mutations(0:1:0)
+2025-12-03 16:34:39,429 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:34:39,429 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:34:54,431 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Modules running (incoming:processing:outgoing) dnsbrute_mutations(0:1:0)
+2025-12-03 16:34:54,431 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: Events produced so far: TECHNOLOGY: 5, OPEN_TCP_PORT: 3, SCAN: 1, DNS_NAME: 1, ORG_STUB: 1, ASN: 1, IP_ADDRESS: 1, FINDING: 1, URL: 1, HTTP_RESPONSE: 1, WEBSCREENSHOT: 1
+2025-12-03 16:34:54,431 [INFO] bbot.scanner scanner.py:1187 reckless_rodriguez: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | Affiliate      | Score   | Count   |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +================+=========+=========+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | acunetix.com   | 10.50   | 11      |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | macromedia.com | 6.50    | 7       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | eclectasy.com  | 3.50    | 4       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | w3.org         | 3.50    | 4       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | amazon.com     | 2.00    | 4       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | amazonaws.com  | 1.50    | 2       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | vulnweb.com    | 1.00    | 1       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 | aws.com        | 0.50    | 1       |
+2025-12-03 16:35:02,142 [INFO] bbot.modules.affiliates base.py:1533 +----------------+---------+---------+
+2025-12-03 16:35:02,143 [INFO] bbot.modules.asn base.py:1533 +---------+---------------+--------------+-----------+------------------+-----------+
+2025-12-03 16:35:02,143 [INFO] bbot.modules.asn base.py:1533 | ASN     | Subnet        | Host Count   | Name      | Description      | Country   |
+2025-12-03 16:35:02,143 [INFO] bbot.modules.asn base.py:1533 +=========+===============+==============+===========+==================+===========+
+2025-12-03 16:35:02,143 [INFO] bbot.modules.asn base.py:1533 | AS16509 | 44.224.0.0/11 | 2            | AMAZON-02 | Amazon.com, Inc. | US        |
+2025-12-03 16:35:02,143 [INFO] bbot.modules.asn base.py:1533 +---------+---------------+--------------+-----------+------------------+-----------+
+2025-12-03 16:35:02,144 [SUCCESS] bbot.modules.gowitness logger.py:151 1 web screenshots captured. To view:
+2025-12-03 16:35:02,144 [SUCCESS] bbot.modules.gowitness logger.py:151     - Start gowitness
+2025-12-03 16:35:02,144 [SUCCESS] bbot.modules.gowitness logger.py:151         - cd /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/gowitness && ./gowitness server
+2025-12-03 16:35:02,144 [SUCCESS] bbot.modules.gowitness logger.py:151     - Browse to http://localhost:7171
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 | Module             | Produced                         | Consumed                                 |
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 +====================+==================================+==========================================+
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 | wappalyzer         | 4 (4 TECHNOLOGY)                 | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 | shodan_idb         | 3 (1 FINDING, 1 OPEN_TCP_PORT, 1 | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 |                    | TECHNOLOGY)                      |                                          |
+2025-12-03 16:35:02,146 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | speculate          | 2 (1 OPEN_TCP_PORT, 1 ORG_STUB)  | 45 (9 DNS_NAME, 9 DNS_NAME_UNRESOLVED, 1 |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | HTTP_RESPONSE, 1 IP_ADDRESS, 1 URL, 24   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | URL_UNVERIFIED)                          |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | httpx              | 2 (1 HTTP_RESPONSE, 1 URL)       | 1 (1 OPEN_TCP_PORT)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | portscan           | 1 (1 OPEN_TCP_PORT)              | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | A                  | 1 (1 IP_ADDRESS)                 | 0                                        |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | gowitness          | 1 (1 WEBSCREENSHOT)              | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dnsresolve         | 0                                | 88 (23 DNS_NAME, 6 EMAIL_ADDRESS, 1      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | FINDING, 1 HTTP_RESPONSE, 17 IP_ADDRESS, |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | 10 OPEN_TCP_PORT, 5 TECHNOLOGY, 1 URL,   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | 24 URL_UNVERIFIED)                       |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | cloudcheck         | 0                                | 63 (9 DNS_NAME, 9 DNS_NAME_UNRESOLVED, 1 |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | EMAIL_ADDRESS, 1 FINDING, 1              |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | HTTP_RESPONSE, 2 IP_ADDRESS, 10          |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | OPEN_TCP_PORT, 5 TECHNOLOGY, 1 URL, 24   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 |                    |                                  | URL_UNVERIFIED)                          |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | baddns             | 0                                | 10 (1 DNS_NAME, 9 DNS_NAME_UNRESOLVED)   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | baddns_zone        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dnsbrute_mutations | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dnscommonsrv       | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | oauth              | 0                                | 3 (3 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | securitytxt        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dockerhub          | 0                                | 1 (1 ORG_STUB)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | ipneighbor         | 0                                | 1 (1 IP_ADDRESS)                         |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | anubisdb           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | certspotter        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | crt                | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dnsbrute           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | dnsdumpster        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | hackertarget       | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | leakix             | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | myssl              | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | otx                | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | rapiddns           | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | sitedossier        | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | subdomaincenter    | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | urlscan            | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | wayback            | 0                                | 1 (1 DNS_NAME)                           |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | excavate           | 0                                | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | git                | 0                                | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | iis_shortnames     | 0                                | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | nuclei             | 0                                | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | robots             | 0                                | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | wafw00f            | 0                                | 1 (1 URL)                                |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | badsecrets         | 0                                | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | filedownload       | 0                                | 16 (1 HTTP_RESPONSE, 15 URL_UNVERIFIED)  |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | trufflehog         | 0                                | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | wpscan             | 0                                | 1 (1 HTTP_RESPONSE)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | code_repository    | 0                                | 24 (24 URL_UNVERIFIED)                   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | social             | 0                                | 24 (24 URL_UNVERIFIED)                   |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 | sslcert            | 0                                | 1 (1 OPEN_TCP_PORT)                      |
+2025-12-03 16:35:02,147 [INFO] bbot.modules.aggregate base.py:1533 +--------------------+----------------------------------+------------------------------------------+
+2025-12-03 16:35:02,149 [INFO] bbot.modules.output.asset_inventory base.py:1533 +-------------+--------------+
+2025-12-03 16:35:02,149 [INFO] bbot.modules.output.asset_inventory base.py:1533 | Domains     |              |
+2025-12-03 16:35:02,149 [INFO] bbot.modules.output.asset_inventory base.py:1533 +=============+==============+
+2025-12-03 16:35:02,149 [INFO] bbot.modules.output.asset_inventory base.py:1533 | vulnweb.com | 1/1 (100.0%) |
+2025-12-03 16:35:02,149 [INFO] bbot.modules.output.asset_inventory base.py:1533 +-------------+--------------+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +----------------+--------------+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 | IP Addresses   |              |
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +================+==============+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 | 44.228.0.0/16  | 1/1 (100.0%) |
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +----------------+--------------+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +--------------+--------------+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 | Open Ports   |              |
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +==============+==============+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 | 80           | 1/1 (100.0%) |
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 +--------------+--------------+
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.asset_inventory base.py:1533 Saved asset-inventory output to /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/asset-inventory.csv
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.csv base.py:1533 Saved CSV output to /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/output.csv
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.json base.py:1533 Saved JSON output to /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/output.json
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.subdomains base.py:1533 Saved 1 subdomains to /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/subdomains.txt
+2025-12-03 16:35:02,150 [INFO] bbot.modules.output.txt base.py:1533 Saved TXT output to /home/wired/Development/bbot/bbot/telegram/reckless_rodriguez/output.txt

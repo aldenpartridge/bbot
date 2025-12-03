@@ -1,0 +1,10 @@
+[SCAN]              	muscular_curtis (SCAN:51252aad23daf3aa17de7fb5aae6abe11c058b9a)	TARGET
+[DNS_NAME]          	testphp.vulnweb.com	TARGET	(a-record, cloud-amazon, cloud-ip, in-scope, subdomain, target, txt-record)
+[ORG_STUB]          	vulnweb	speculate
+[FINDING]           	{"description": "Shodan reported possible vulnerabilities: CVE-2021-3618, CVE-2025-23419, CVE-2023-44487, CVE-2021-23017", "host": "testphp.vulnweb.com"}	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "cpe:/a:f5:nginx:1.19.0"}	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[ASN]               	{"asn": "16509", "country": "US", "description": "Amazon.com, Inc.", "name": "AMAZON-02", "subnet": "44.224.0.0/11"}	asn
+[URL]               	http://testphp.vulnweb.com/	httpx	(cloud-amazon, cloud-ip, dir, http-title-home-of-acunetix-art, in-scope, ip-44-228-249-3, status-200)
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	speculate	(cloud-amazon, cloud-ip, in-scope)
+[SCAN]              	muscular_curtis (SCAN:51252aad23daf3aa17de7fb5aae6abe11c058b9a)	TARGET

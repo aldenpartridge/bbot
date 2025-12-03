@@ -1,0 +1,7 @@
+[SCAN]              	cold_paul (SCAN:822ce12d715c5b2998753b2e5d5a0cfed8883090)	TARGET
+[URL_UNVERIFIED]    	http://testphp.vulnweb.com/hv/	TARGET	(cloud-amazon, cloud-ip, dir, in-scope, target)
+[DNS_NAME]          	testphp.vulnweb.com	TARGET->host	(a-record, cloud-amazon, cloud-ip, in-scope, subdomain, target, txt-record)
+[ORG_STUB]          	vulnweb	speculate
+[URL]               	http://testphp.vulnweb.com/	httpx	(cloud-amazon, cloud-ip, dir, http-title-home-of-acunetix-art, in-scope, ip-44-228-249-3, status-200)
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	speculate	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "nginxgeneric", "url": "http://testphp.vulnweb.com/"}	nuclei	(cloud-amazon, cloud-ip, in-scope)

@@ -1,0 +1,6 @@
+description: mediocre_eric
+config:
+  modules:
+    telegram:
+      chat_id: 123456789
+verbose: true

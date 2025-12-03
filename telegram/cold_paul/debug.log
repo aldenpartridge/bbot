@@ -1,0 +1,64 @@
+2025-12-03 16:22:04,232 [TRACE] bbot.scanner logger.py:151 Ran BBOT v0.0.0 at 2025-12-03 16:22:04.219016, command: /home/wired/.cache/pypoetry/virtualenvs/bbot-pVNy_ToW-py3.13/bin/bbot -t http://testphp.vulnweb.com/hv/ -m nuclei -o telegram -c modules.telegram.bot_token=8419771137:AAF3f41MwsICgh7wyb-3nfH9Apu6GakKi1Q -c modules.telegram.chat_id=6200584998 --allow-deadly --force
+2025-12-03 16:22:04,232 [TRACE] bbot.scanner logger.py:151 Target: {'seeds': ['http://testphp.vulnweb.com/hv/'], 'whitelist': ['testphp.vulnweb.com'], 'blacklist': [], 'strict_scope': False, 'hash': 'a9808f016c8f1cfe61de707a16cbf28886b1b4ba', 'seed_hash': 'f9af40524ce6ac2650d9b27180a69a597f8c37a0', 'whitelist_hash': '060e92d09292b608bfc470f1a08012ff1ce19a19', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '90e62c36b511693c013b011d2fed72c5afb218e5'}
+2025-12-03 16:22:04,232 [TRACE] bbot.scanner logger.py:151 Preset: {'description': 'cold_paul', 'config': {'modules': {'telegram': {}}}, 'modules': ['nuclei']}
+2025-12-03 16:22:04,232 [HUGESUCCESS] bbot.scanner logger.py:151 Starting scan cold_paul
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533                      __     _
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533    ____  __  _______/ /__  (_)
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533   / __ \/ / / / ___/ / _ \/ /
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533  / / / / /_/ / /__/ /  __/ /
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533 /_/ /_/\__,_/\___/_/\___/_/   v3.4.10
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533 		projectdiscovery.io
+2025-12-03 16:22:12,936 [INFO] bbot.modules.nuclei base.py:1533 
+2025-12-03 16:22:14,888 [INFO] bbot.modules.nuclei base.py:1533 [[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+2025-12-03 16:22:14,888 [INFO] bbot.modules.nuclei base.py:1533 [[31mWRN[0m] Found 1 templates with runtime error (use -validate flag for further examination)
+2025-12-03 16:22:14,888 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Current nuclei version: v3.4.10 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2025-12-03 16:22:14,888 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Current nuclei-templates version: v10.3.4 ([93munknown[0m) - remove '-duc' flag to enable update checks
+2025-12-03 16:22:14,888 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] New templates added in latest release: 0
+2025-12-03 16:22:14,889 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Templates loaded for current scan: 8855
+2025-12-03 16:22:14,889 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Executing 8853 signed templates from projectdiscovery/nuclei-templates
+2025-12-03 16:22:14,889 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Targets loaded for current scan: 1
+2025-12-03 16:22:14,908 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Templates clustered: 1853 (Reduced 1740 Requests)
+2025-12-03 16:22:17,912 [INFO] bbot.modules.nuclei base.py:1533 [[34mINF[0m] Using Interactsh Server: oast.online
+2025-12-03 16:22:19,254 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) httpx(38:2:0), nuclei(0:1:0)
+2025-12-03 16:22:19,254 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:22:19,254 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (325 processed in the past 15 seconds)
+2025-12-03 16:22:20,160 [INFO] bbot.modules.nuclei base.py:1533 [0:00:05] | Templates: 8855 | Hosts: 1 | RPS: 51 | Matched: 0 | Errors: 0 | Requests: 271/16088 (1%)
+2025-12-03 16:22:25,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:10] | Templates: 8855 | Hosts: 1 | RPS: 63 | Matched: 0 | Errors: 0 | Requests: 650/16088 (4%)
+2025-12-03 16:22:30,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:15] | Templates: 8855 | Hosts: 1 | RPS: 71 | Matched: 0 | Errors: 3 | Requests: 1090/16088 (6%)
+2025-12-03 16:22:34,256 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:22:34,256 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:22:34,256 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:22:35,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:20] | Templates: 8855 | Hosts: 1 | RPS: 68 | Matched: 0 | Errors: 4 | Requests: 1395/16088 (8%)
+2025-12-03 16:22:40,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:25] | Templates: 8855 | Hosts: 1 | RPS: 69 | Matched: 0 | Errors: 9 | Requests: 1750/16088 (10%)
+2025-12-03 16:22:45,160 [INFO] bbot.modules.nuclei base.py:1533 [0:00:30] | Templates: 8855 | Hosts: 1 | RPS: 67 | Matched: 0 | Errors: 10 | Requests: 2030/16088 (12%)
+2025-12-03 16:22:49,258 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:22:49,258 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:22:49,258 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:22:50,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:35] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 12 | Requests: 2309/16088 (14%)
+2025-12-03 16:22:55,160 [INFO] bbot.modules.nuclei base.py:1533 [0:00:40] | Templates: 8855 | Hosts: 1 | RPS: 64 | Matched: 0 | Errors: 18 | Requests: 2614/16088 (16%)
+2025-12-03 16:23:00,160 [INFO] bbot.modules.nuclei base.py:1533 [0:00:45] | Templates: 8855 | Hosts: 1 | RPS: 67 | Matched: 0 | Errors: 18 | Requests: 3037/16088 (18%)
+2025-12-03 16:23:04,260 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:23:04,260 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:23:04,260 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:23:05,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:50] | Templates: 8855 | Hosts: 1 | RPS: 66 | Matched: 0 | Errors: 18 | Requests: 3337/16088 (20%)
+2025-12-03 16:23:10,159 [INFO] bbot.modules.nuclei base.py:1533 [0:00:55] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 18 | Requests: 3638/16088 (22%)
+2025-12-03 16:23:15,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:00] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 18 | Requests: 3956/16088 (24%)
+2025-12-03 16:23:19,261 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:23:19,261 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:23:19,261 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:23:20,160 [INFO] bbot.modules.nuclei base.py:1533 [0:01:05] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 18 | Requests: 4301/16088 (26%)
+2025-12-03 16:23:25,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:10] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 22 | Requests: 4575/16088 (28%)
+2025-12-03 16:23:30,160 [INFO] bbot.modules.nuclei base.py:1533 [0:01:15] | Templates: 8855 | Hosts: 1 | RPS: 65 | Matched: 0 | Errors: 24 | Requests: 4965/16088 (30%)
+2025-12-03 16:23:34,262 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:23:34,262 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:23:34,262 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:23:35,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:20] | Templates: 8855 | Hosts: 1 | RPS: 69 | Matched: 0 | Errors: 24 | Requests: 5553/16088 (34%)
+2025-12-03 16:23:40,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:25] | Templates: 8855 | Hosts: 1 | RPS: 75 | Matched: 0 | Errors: 39 | Requests: 6428/16088 (39%)
+2025-12-03 16:23:45,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:30] | Templates: 8855 | Hosts: 1 | RPS: 79 | Matched: 1 | Errors: 43 | Requests: 7170/16088 (44%)
+2025-12-03 16:23:49,263 [INFO] bbot.scanner scanner.py:1187 cold_paul: Modules running (incoming:processing:outgoing) nuclei(0:1:0)
+2025-12-03 16:23:49,263 [INFO] bbot.scanner scanner.py:1187 cold_paul: Events produced so far: SCAN: 1, URL_UNVERIFIED: 1, DNS_NAME: 1, ORG_STUB: 1, URL: 1, OPEN_TCP_PORT: 1
+2025-12-03 16:23:49,263 [INFO] bbot.scanner scanner.py:1187 cold_paul: No events in queue (0 processed in the past 15 seconds)
+2025-12-03 16:23:50,159 [INFO] bbot.modules.nuclei base.py:1533 [0:01:35] | Templates: 8855 | Hosts: 1 | RPS: 81 | Matched: 1 | Errors: 69 | Requests: 7779/16088 (48%)
+2025-12-03 16:23:55,160 [INFO] bbot.modules.nuclei base.py:1533 [0:01:40] | Templates: 8855 | Hosts: 1 | RPS: 81 | Matched: 2 | Errors: 69 | Requests: 8121/16088 (50%)

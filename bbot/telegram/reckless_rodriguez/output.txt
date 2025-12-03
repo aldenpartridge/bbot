@@ -1,0 +1,16 @@
+[SCAN]              	reckless_rodriguez (SCAN:4d2413741b1264bf5603fce6db19208d17dfd43b)	TARGET
+[DNS_NAME]          	testphp.vulnweb.com	TARGET	(a-record, cloud-amazon, cloud-ip, in-scope, subdomain, target, txt-record)
+[ORG_STUB]          	vulnweb	speculate
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "cpe:/a:f5:nginx:1.19.0"}	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[ASN]               	{"asn": "16509", "country": "US", "description": "Amazon.com, Inc.", "name": "AMAZON-02", "subnet": "44.224.0.0/11"}	asn
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[FINDING]           	{"description": "Shodan reported possible vulnerabilities: CVE-2021-3618, CVE-2025-23419, CVE-2023-44487, CVE-2021-23017", "host": "testphp.vulnweb.com"}	shodan_idb	(cloud-amazon, cloud-ip, in-scope)
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	portscan	(cloud-amazon, cloud-ip, in-scope)
+[URL]               	http://testphp.vulnweb.com/	httpx	(cloud-amazon, cloud-ip, dir, http-title-home-of-acunetix-art, in-scope, ip-44-228-249-3, status-200)
+[OPEN_TCP_PORT]     	testphp.vulnweb.com:80	speculate	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "dreamweaver", "url": "http://testphp.vulnweb.com/"}	httpx->wappalyzer	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "ubuntu", "url": "http://testphp.vulnweb.com/"}	httpx->wappalyzer	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "php", "url": "http://testphp.vulnweb.com/"}	httpx->wappalyzer	(cloud-amazon, cloud-ip, in-scope)
+[TECHNOLOGY]        	{"host": "testphp.vulnweb.com", "technology": "nginx", "url": "http://testphp.vulnweb.com/"}	httpx->wappalyzer	(cloud-amazon, cloud-ip, in-scope)
+[WEBSCREENSHOT]     	{"path": "gowitness/screenshots/http---testphp.vulnweb.com-80-.jpeg", "url": "http://testphp.vulnweb.com/"}	gowitness	(file)
+[SCAN]              	reckless_rodriguez (SCAN:4d2413741b1264bf5603fce6db19208d17dfd43b)	TARGET
